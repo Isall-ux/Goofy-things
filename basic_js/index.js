@@ -38,3 +38,4 @@ function diskonNieh(event) {
     `;
     return false;
 }
+
