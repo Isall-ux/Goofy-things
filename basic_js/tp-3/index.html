@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const nilai = prompt("berapa nilai anda")
+        const nilaiVal = Number(nilai)
+
+        if(!nilai){
+            alert("tidak ada data yg dimasukan")
+        }
+        if(nilaiVal >= 80){
+            alert(`bagus nilai kamu ${nilaiVal} melebihi atau sama dengan 80 kamu dapet nilai A`)
+            document.writeln("<p>kamu dapat nilai A</p>")
+        } else if(nilaiVal >= 70){
+            alert(`bagus nilai kamu ${nilaiVal} melebihi atau sama dengan 70 kamu dapet nilai B`)
+            document.writeln("<p>kamu dapat nilai B</p>")
+        } else if(nilaiVal >= 60){
+            alert(`bagus nilai kamu ${nilaiVal} melebihi atau sama dengan 60 kamu dapet nilai C`)
+            document.writeln("<p>kamu dapat nilai C</p>")
+        } else{
+            document.writeln("<p>coba lagi tahun depan</p>")
+        }
+    </script>
+</body>
+</html>
